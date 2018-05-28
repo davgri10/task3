@@ -14,7 +14,7 @@ services:
         command: "/usr/bin/opendlv-device-camera-rpicamv2 --cid=111"
     
     device-camera-rpicamv2-example:
-        image: davgri/test-angle-v:0.0.1
+        image: grescha/test
         depends_on:
           - device-camera-rpicamv2
         restart: always
